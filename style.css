@@ -36,7 +36,7 @@ main {
 .main-header {
   background-color: var(--bg-color);
   border: 5px solid var(--clr-primary);
-  padding: 50px;
+  padding: 10px 50px;
 }
 
 .main-header h1 {

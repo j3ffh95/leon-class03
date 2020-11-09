@@ -125,7 +125,16 @@ nav a {
   }
 
   .text-content img {
-    max-height: 200px;
+    max-height: 120px;
     float: none;
+    margin: 0;
+  }
+
+  .text-content p {
+    text-align: initial;
+  }
+
+  .text-content p:first-of-type {
+    margin: 5px 0 20px;
   }
 }

@@ -18,20 +18,40 @@ body {
   line-height: 1.5;
   background-color: black;
 }
-
+/* Makes the main content to the middle of the page */
 main {
-  width: 855px;
+  max-width: 855px;
+  padding: 30px;
   margin: 0 auto;
   background-color: var(--bg-color);
-}
-
-.outer-header {
-  background-color: var(--bg-color);
-  padding: 30px;
 }
 
 .main-header {
   background-color: var(--bg-color);
   border: 5px solid var(--clr-primary);
   padding: 30px;
+}
+
+.main-header h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.main-header nav {
+  text-align: center;
+}
+
+nav span.divider {
+  display: inline-block;
+  padding: 6px 0;
+  margin-left: 5px;
+  border: 1px solid gray;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  /* text-align: center; */
 }

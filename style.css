@@ -72,6 +72,7 @@ nav a {
   max-width: 300px;
   max-height: 300px;
   float: right;
+  margin: 0 0 1rem 1.5rem;
 }
 
 .text-content p:first-of-type {

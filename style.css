@@ -82,3 +82,9 @@ nav a {
 .text-content p:first-of-type {
   margin: 10px 0 40px;
 }
+
+/* Socail Section */
+.social {
+  text-align: center;
+  padding: 2rem;
+}

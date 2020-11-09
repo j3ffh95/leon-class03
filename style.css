@@ -36,7 +36,7 @@ main {
 .main-header {
   background-color: var(--bg-color);
   border: 5px solid var(--clr-primary);
-  padding: 30px;
+  padding: 50px;
 }
 
 .main-header h1 {
@@ -83,8 +83,49 @@ nav a {
   margin: 10px 0 40px;
 }
 
-/* Socail Section */
+/* Social Section */
 .social {
   text-align: center;
   padding: 2rem;
+}
+
+/* Screens lower than 550px */
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 0.6rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .main-header {
+    padding: 20px;
+  }
+
+  .main-header h1 {
+    margin-top: 10px;
+  }
+
+  .main-header nav {
+    margin: 10px 0;
+    font-size: 0.7rem;
+  }
+
+  span.divider {
+    padding: 3px 0;
+  }
+
+  .text-content {
+    text-align: center;
+  }
+
+  .text-content h2 {
+    display: none;
+  }
+
+  .text-content img {
+    max-height: 200px;
+    float: none;
+  }
 }

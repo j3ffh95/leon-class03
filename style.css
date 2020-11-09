@@ -90,9 +90,9 @@ nav a {
 }
 
 /* Screens lower than 550px */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
   body {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 
   main {
@@ -126,7 +126,7 @@ nav a {
   }
 
   .text-content img {
-    max-height: 120px;
+    max-height: 200px;
     float: none;
     margin: 0;
   }

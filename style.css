@@ -51,10 +51,10 @@ main {
   margin: 30px 0;
 }
 
-nav span.divider {
+span.divider {
   display: inline-block;
   padding: 6px 0;
-  margin: 0 8px 0 11px;
+  margin: 0 5px 0;
   border: 1px solid gray;
 }
 
